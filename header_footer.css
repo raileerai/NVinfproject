@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-style: normal;
+    src: format("Times New Roman");
+}
+@font-face {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    src: format("Times New Roman");
+}
+.container-fluid {
+    width: 100%;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.d-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+body {
+    font-family: "Times New Roman";
+    width: 100%;
+    font-size: 16px;
+}
+header {
+    background: radial-gradient(circle, #105666 70%,#0d5262 100%);
+}
+header >.container {
+    padding: 20px 25px;
+}
+header .container .menu a{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #f7f4d5;
+    margin: 0 25px;
+}
+header .container .menu a:hover ,
+header .container .menu a:active {
+    color: #d3968c;
+    font-weight: 400;
+    padding-bottom: 7px;
+    cursor: pointer;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    background: radial-gradient(circle, #105666 70%, #0d5262 100%);
+}
+footer >.container {
+    padding: 15px 25px;
+}
+footer .container .menu a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #f7f4d5;
+    margin: 0 25px;
+}
+footer .container .menu a:hover,
+footer .container .menu a:active {
+    color: #d3968c;
+    font-weight: 400;
+    padding-bottom: 7px;
+    cursor: pointer;
+}
+figcaption {
+    margin-top: 10px;
+    color: #f7f4d5;
+}

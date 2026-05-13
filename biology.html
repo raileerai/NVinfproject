@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Биология</title>
+    <link rel="stylesheet" type="text/css" href="header_footer.css"/>
+    <link rel="stylesheet" type="text/css" href="main2.css"/>
+</head>
+<body>
+    <section class="quiz-section">
+        <div class="quiz-box">
+            <h1>Codehal quiz</h1>
+            <div class="quiz-header">
+                <span>Quiz Website Tutorials</span>
+                <span class="header-score">Счёт: 0 / 5</span>
+            </div>
+            <h2 class="question-text">Sin 45º = ?</h2>
+            <div class="option-list">
+                <!--<div class="option"><span>A. 0</span></div>
+                <div class="option"><span>B. 1</span></div>
+                <div class="option"><span>C. √(2)/2</span></div>
+                <div class="option"><span>D. 1/2</span></div>-->
+            </div>
+            <div class="quiz-footer">
+                <span class="question-total">1 из 5 Вопросов</span>
+                <button class="next-btn">Дальше</button>
+            </div>
+        </div>
+        <div class="result-box">
+            <h2>Результат!</h2>
+            <div class="percentage-container">
+                <div class="circular-progress">
+                    <span class="progress-value">0%</span>
+                </div>
+                <span class="score-text">Ваш счёт 0 из 5</span>
+            </div>
+            <div class="buttons">
+                <button class="tryAgain-btn">Ещё раз</button>
+                <button class="goHome-btn">Выход</button>
+            </div>
+        </div>
+    </section>
+    <div class="everything">
+        <header class="container-fluid">
+            <div class="container d-flex">
+                <img src="imgs/whitelogo.jpg" alt="logo" height="60"/>
+                <nav class="menu">
+                    <a class="active" href="index.html">Главный экран</a>
+                    <a href="rus.html">Русский</a>
+                    <a href="math.html">Математика</a>
+                    <a href="history.html">История</a>
+                    <a href="biology.html">Биология</a>
+                </nav>
+            </div>
+        </header>
+        <main class="container-fluid main">
+            <div class="mainbox">
+                <table border="0">
+                    <tr>
+                        <td>
+                            <div class="box">
+                                <img src="imgs/greenlogo.jpg" height="50px"/>
+                                <section class="tema">
+                                    <h2>Ботаника</h2>
+                                </section>
+                                <button class="start-btn" data-topic="0">Начать</button>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="box">
+                                <img src="imgs/greenlogo.jpg" height="50px"/>
+                                <section class="tema">
+                                    <h2>Зоология</h2>
+                                </section>
+                                <button class="start-btn" data-topic="1">Начать</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="box">
+                                <img src="imgs/greenlogo.jpg" height="50px"/>
+                                <section class="tema">
+                                    <h2>Генетика</h2>
+                                </section>
+                                <button class="start-btn" data-topic="2">Начать</button>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="box">
+                                <img src="imgs/greenlogo.jpg" height="50px"/>
+                                <section class="tema">
+                                    <h2>Экология</h2>
+                                </section>
+                                <button class="start-btn" data-topic="3">Начать</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="box">
+                                <img src="imgs/greenlogo.jpg" height="50px"/>
+                                <section class="tema">
+                                    <h2>Анатомия</h2>
+                                </section>
+                                <button class="start-btn" data-topic="4">Начать</button>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="box">
+                                <img src="imgs/greenlogo.jpg" height="50px"/>
+                                <section class="tema">
+                                    <h2>Физиология</h2>
+                                </section>
+                                <button class="start-btn" data-topic="5">Начать</button>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+        <div class="popup-info">
+            <h2><center>Обратите внимание</center></h2>
+            <span class="info">1. Тест состоит из 5 вопросов.</span>
+            <span class="info">2. Вопросы составлены по выбранной теме.</span>
+            <span class="info">3. Выбранные ответы нельзя изменить.</span>
+            <span class="info">4. На предыдущий вопрос нельзя возвращаться.</span>
+            <span class="info">5. Тест всегда можно повторить.</span>
+
+            <div class="btn-group">
+                <button class="info-btn exit-btn">Выход</button>
+                <a href="#" class="info-btn continue-btn">Дальше</a>
+            </div>
+        </div>
+        <footer class="container-fluid">
+            <div class="container d-flex">
+                <figure>
+                    <img src="imgs/whitelogo.jpg" alt="logo" height="60"/>
+                    <figcaption>интерактивный сайт</figcaption>
+                </figure>
+                <nav class="menu">
+                    <a class="active" href="index.html">Главный экран</a>
+                    <a href="rus.html">Русский</a>
+                    <a href="math.html">Математика</a>
+                    <a href="history.html">История</a>
+                    <a href="biology.html">Биология</a>
+                </nav>
+            </div>
+        </footer>
+        <script src="questions4.js"></script>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>

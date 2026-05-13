@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    background: #f8e6ce;
+}
+main .d-flex { 
+    display: block;   
+}
+section {
+    padding: 20px 0px;;
+   justify-items: center;
+   color: #105666;
+}
+.start p {
+    margin-top: 15px;
+    font-size: 24px
+}
+.choices {
+    text-align: center;
+    margin: 10px;
+}
+.choices a {
+    padding: 10px;
+}
+.choices img {
+    border: 2px solid rgb(112, 131, 187);
+    border-radius: 10px;
+}
+figure {
+    text-align: center;
+}
